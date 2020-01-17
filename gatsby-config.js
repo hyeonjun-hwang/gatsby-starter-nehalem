@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `nehalem-starter`,
+    title: `Hwang HyeonJun's Portfolio`,
     siteUrl: `https://nehalem.netlify.com`,
     description: `A Gatsby starter for nehalem`,
     topics: [],
