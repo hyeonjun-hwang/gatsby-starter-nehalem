@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
     title: `Hwang HyeonJun's Portfolio`,
-    siteUrl: `https://nehalem.netlify.com`,
-    description: `A Gatsby starter for nehalem`,
+    siteUrl: `https://perpling.com`,
+    description: `안녕하세요. 서비스 기획자 황현준 입니다.`,
     topics: [],
     menu: [
       {
