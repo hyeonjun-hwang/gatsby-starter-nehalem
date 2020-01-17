@@ -48,7 +48,7 @@ module.exports = {
           background_color: `#a4cbb8`,
           theme_color: `#a4cbb8`,
           display: `minimal-ui`,
-          icon: `${__dirname}/content/assets/images/logo.png`
+          icon: `${__dirname}/content/assets/images/logo_edit.png`
         }
       }
     }
