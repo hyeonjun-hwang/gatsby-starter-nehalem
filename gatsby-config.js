@@ -5,7 +5,8 @@ module.exports = {
     description: `안녕하세요. %TOPICS% 입니다.`,
     topics: [
       `황현준`,
-      `아무말`
+      `아무말`,
+      `기러기`
     ],
     menu: [
       {
