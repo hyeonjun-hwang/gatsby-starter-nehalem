@@ -1,9 +1,8 @@
-- name: first tag
-  color: "#007acc"
+- name: first_tag
+  color: "#d66792"
   icon: ./assets/images/temp_tag_1.png
   featured: true
-
-- name: second tag
-  color: "#007acc"
+- name: second_tag
+  color: "#5e50de"
   icon: ./assets/images/temp_tag_2.png
   featured: true

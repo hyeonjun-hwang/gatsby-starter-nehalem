@@ -1,11 +1,11 @@
 ---
-title: "이그잼플"
-path: "/examlpe"
+title: "첫 번째 포스팅"
+path: "/firstpost"
 tags: ["first_tag"]
-featuredImage: "./cover.jpg"
-excerpt: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. 
-created: 2019-01-20
-updated: 2019-01-20
+featuredImage: "./nature1.jpeg"
+excerpt: 이것은 내가 테스트용으로 포스팅 하는 첫번째 글이다. 앞으로 이곳이 나의 블로그 터전이 될것이당 끼룩끼룩
+created: 2020-01-19
+updated: 2020-01-19
 ---
 
 ## Cruciabere instruit

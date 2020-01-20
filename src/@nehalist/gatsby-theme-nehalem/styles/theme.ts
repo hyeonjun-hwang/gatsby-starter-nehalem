@@ -3,8 +3,8 @@ import {DefaultTheme} from '@nehalist/gatsby-theme-nehalem';
 const Theme: DefaultTheme = {
   layout: {
     backgroundColor: `#fafafa`,
-    primaryColor: `#a4cbb8`,
-    linkColor: `#a4cbb8`,
+    primaryColor: `#3a7bd5`,
+    linkColor: `#3a7bd5`,
   },
   breakpoints: {
     xs: `425px`,

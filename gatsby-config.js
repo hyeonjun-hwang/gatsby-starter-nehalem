@@ -6,7 +6,8 @@ module.exports = {
     topics: [
       `가나다`,
       `아무말`,
-      `황현준`
+      `황현준`,
+      '꾸르끼'
     ],
     menu: [
       {
@@ -14,7 +15,7 @@ module.exports = {
         path: '/'
       },
       {
-        name: 'Example',
+        name: 'about',
         path: '/page'
       },
     ],
