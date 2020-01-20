@@ -4,10 +4,8 @@ module.exports = {
     siteUrl: `https://perpling.com`,
     description: `안녕하세요. %TOPICS% 입니다.`,
     topics: [
-      `가나다`,
-      `아무말`,
       `황현준`,
-      '꾸르끼'
+      `아무말`
     ],
     menu: [
       {
@@ -24,6 +22,10 @@ module.exports = {
         name: 'RSS',
         path: ''
       },
+      {
+        name: 'Sitemap',
+        path: ''
+      }
     ],
     search: true,
     author: {
