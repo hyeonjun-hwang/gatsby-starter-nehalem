@@ -60,8 +60,8 @@ module.exports = {
           name: `nehalem - A Gatsby theme`,
           short_name: `nehalem`,
           start_url: `/`,
-          background_color: `#a4cbb8`,
-          theme_color: `#a4cbb8`,
+          background_color: `#3a7bd5`,
+          theme_color: `#3a7bd5`,
           display: `minimal-ui`,
           icon: `${__dirname}/content/assets/images/temp_favicon.png`
         },
