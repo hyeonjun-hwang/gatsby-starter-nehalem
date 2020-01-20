@@ -1,14 +1,12 @@
 module.exports = {
   siteMetadata: {
-    title: `Hwang HyeonJun's Portfolio`,
+    title: `Hwang HyeonJun's blog`,
     siteUrl: `https://perpling.com`,
     description: `안녕하세요. %TOPICS% 입니다.`,
     topics: [
-      `bloggers`,
-      `geeks`,
-      `nerds`,
-      `people`,
-      `everyone`
+      `가나다`,
+      `아무말`,
+      `황현준`
     ],
     menu: [
       {
@@ -23,12 +21,12 @@ module.exports = {
     footerMenu: [
       {
         name: 'RSS',
-        path: '/rss.xml'
+        path: ''
       },
     ],
     search: true,
     author: {
-      name: `nehalem`,
+      name: `황현준`,
       description: `I'm <strong>nehalem</strong>, a Gatsby theme by 
         <a href="https://nehalist.io" rel="noopener" target="_blank">Hwang HyeonJun</a>. If you like what you see feel free to give a 
         <a href="https://github.com/nehalist/gatsby-theme-nehalem" rel="noopener" target="_blank">star on GitHub!</a>`,
