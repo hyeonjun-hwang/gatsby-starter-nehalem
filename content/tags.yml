@@ -1,4 +1,9 @@
-- name: Demo
+- name: first tag
   color: "#007acc"
-  icon: ./assets/images/logo.png
+  icon: ./assets/images/temp_tag_1.png
+  featured: true
+
+- name: second tag
+  color: "#007acc"
+  icon: ./assets/images/temp_tag_2.png
   featured: true
