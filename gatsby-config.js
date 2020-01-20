@@ -2,8 +2,14 @@ module.exports = {
   siteMetadata: {
     title: `Hwang HyeonJun's Portfolio`,
     siteUrl: `https://perpling.com`,
-    description: `안녕하세요. 서비스 기획자 황현준 입니다.`,
-    topics: [],
+    description: `안녕하세요. %TOPICS% 입니다.`,
+    topics: [
+      `bloggers`,
+      `geeks`,
+      `nerds`,
+      `people`,
+      `everyone`
+    ],
     menu: [
       {
         name: 'Home',
@@ -16,8 +22,8 @@ module.exports = {
     ],
     footerMenu: [
       {
-        name: 'Example',
-        path: '/page'
+        name: 'RSS',
+        path: '/rss.xml'
       },
     ],
     search: true,
@@ -39,8 +45,16 @@ module.exports = {
   },
   plugins: [
     {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `themeAssets`,
+        path: `${__dirname}/content/assets/images`
+      }
+    },
+    {
       resolve: `@nehalist/gatsby-theme-nehalem`,
       options: {
+        contentPath: `content`,
         manifest: {
           name: `nehalem - A Gatsby theme`,
           short_name: `nehalem`,
@@ -49,7 +63,9 @@ module.exports = {
           theme_color: `#a4cbb8`,
           display: `minimal-ui`,
           icon: `${__dirname}/content/assets/images/logo.png`
-        }
+        },
+        loadDefaultPages: true,
+        postsPerPage: 5
       }
     }
   ]
