@@ -54,7 +54,7 @@ export const FeaturedImage = styled(Img)<Pick<CardProps, 'halfImage'>>`
 export const CardContent = styled.section<{ compact: boolean }>`
   padding: ${props => props.compact ? '10px' : '30px'};
   p {
-    margin: 15px 0;
+    margin: 5px 0;
   }
   h2 {
     font-size: 1.2em;
