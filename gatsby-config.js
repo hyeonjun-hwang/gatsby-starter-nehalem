@@ -5,10 +5,10 @@ module.exports = {
     description: `안녕하세요. %TOPICS% 입니다.`,
     topics: [
       `황현준`,
-      `아무말`,
-      `기러기`,
-      `가다나라마다`,
-      `오늘도 달리자`
+      `Hyeonjun`,
+      `황가`,
+      `hwang`,
+      `렛츠기릿`
     ],
     menu: [
       {
@@ -48,6 +48,9 @@ module.exports = {
     }
   },
   plugins: [
+    
+    `gatsby-plugin-advanced-sitemap`,
+
     {
       resolve: `gatsby-source-filesystem`,
       options: {
