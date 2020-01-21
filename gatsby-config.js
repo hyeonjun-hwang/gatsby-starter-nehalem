@@ -62,7 +62,6 @@ module.exports = {
     },
 
     `gatsby-plugin-advanced-sitemap`,
-    `gatsby-plugin-react-head`,
     
     {
       resolve: `gatsby-plugin-google-analytics`,
@@ -97,12 +96,3 @@ module.exports = {
     }
   ]
 };
-
-import React from "react";
-import { Meta } from "react-head";
-
-const Seo = () => (
-  <>
-    <Meta name="naver-site-verification" content="f626c7f3e36d72aec6fe8f11dc75c843f423f023"/>
-  </>
-);
