@@ -99,10 +99,10 @@ module.exports = {
 };
 
 import React from "react";
-import { Title, Link, Meta } from "react-head";
+import { Meta } from "react-head";
 
 const Seo = () => (
   <>
-    <meta name="naver-site-verification" content="f626c7f3e36d72aec6fe8f11dc75c843f423f023"/>
+    <Meta name="naver-site-verification" content="f626c7f3e36d72aec6fe8f11dc75c843f423f023"/>
   </>
 );
