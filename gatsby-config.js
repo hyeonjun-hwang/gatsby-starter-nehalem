@@ -23,11 +23,11 @@ module.exports = {
     footerMenu: [
       {
         name: 'RSS',
-        path: ''
+        path: 'RSS.xml'
       },
       {
         name: 'Sitemap',
-        path: ''
+        path: 'sitemap.xml'
       }
     ],
     search: true,
@@ -48,8 +48,15 @@ module.exports = {
     }
   },
   plugins: [
-    
+
     `gatsby-plugin-advanced-sitemap`,
+
+    {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: "UA-112409357-1",
+      },
+    },
 
     {
       resolve: `gatsby-source-filesystem`,
