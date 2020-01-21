@@ -49,6 +49,13 @@ module.exports = {
   },
   plugins: [
 
+    {
+      resolve: "gatsby-plugin-google-tagmanager",
+      options: {
+        id: GTM-ND5X5L5
+      }
+    },
+
     `gatsby-plugin-advanced-sitemap`,
 
     {
