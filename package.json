@@ -22,8 +22,10 @@
     "gatsby-plugin-advanced-sitemap": "^1.4.5",
     "gatsby-plugin-google-analytics": "^2.1.33",
     "gatsby-plugin-google-tagmanager": "^2.1.24",
+    "gatsby-plugin-react-head": "^1.1.0",
     "gatsby-source-filesystem": "^2.1.46",
     "react": "^16.9.0",
-    "react-dom": "^16.9.0"
+    "react-dom": "^16.9.0",
+    "react-head": "^3.3.0"
   }
 }
