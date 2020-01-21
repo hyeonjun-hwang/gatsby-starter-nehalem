@@ -55,9 +55,9 @@ module.exports = {
         id: "GTM-ND5X5L5",
         includeInDevelopment: false,
         defaultDataLayer: { platform: "gatsby" },
-        gtmAuth: "YOUR_GOOGLE_TAGMANAGER_ENVIRONMENT_AUTH_STRING",
-        gtmPreview: "YOUR_GOOGLE_TAGMANAGER_ENVIRONMENT_PREVIEW_NAME",
-        dataLayerName: "YOUR_DATA_LAYER_NAME",
+        gtmAuth: "u36f2lo0kChHWljWfl9X5Q",
+        gtmPreview: "env-5",
+        dataLayerName: "dataLayer",
       }
     },
 
