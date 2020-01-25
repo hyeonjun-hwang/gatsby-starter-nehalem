@@ -20,14 +20,14 @@ interface SEOProps {
 const SEO: FunctionComponent<SEOProps> = ({
                                             title,
                                             description,
-                                            lang = 'kr',
+                                            lang = 'ko',
                                             location,
                                             publishedAt,
                                             updatedAt,
                                             isArticle = false,
                                             tags = [],
                                             type = `Article`,
-                                            image,
+                                            image = `${__dirname}/content/assets/images/pencil.png`,
                                           }) => {
   const {site}          = useStaticQuery<SiteMetadata>(graphql`
     query {

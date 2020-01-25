@@ -62,6 +62,7 @@ module.exports = {
     },
 
     `gatsby-plugin-advanced-sitemap`,
+    `gatsby-plugin-react-helmet`,
     
     {
       resolve: `gatsby-plugin-google-analytics`,
