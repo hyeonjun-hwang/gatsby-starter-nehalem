@@ -1,14 +1,14 @@
 module.exports = {
   siteMetadata: {
-    title: `Hwang HyeonJun's blog`,
+    title: `HyeonJun Hwang's Blog`,
     siteUrl: `https://perpling.com`,
     description: `안녕하세요. %TOPICS% 입니다.`,
     topics: [
       `황현준`,
-      `Hyeonjun`,
-      `황가`,
-      `hwang`,
-      `렛츠기릿`
+      `HyeonJun Hwang`,
+      `서비스 기획자`,
+      `퍼포먼스 플래닝`,
+      `퍼플링`
     ],
     menu: [
       {
@@ -16,8 +16,8 @@ module.exports = {
         path: '/'
       },
       {
-        name: 'about',
-        path: '/page'
+        name: 'About',
+        path: '/about'
       },
     ],
     footerMenu: [
@@ -33,16 +33,16 @@ module.exports = {
     search: true,
     author: {
       name: `황현준`,
-      description: `I'm <strong>nehalem</strong>, a Gatsby theme by 
-        <a href="https://nehalist.io" rel="noopener" target="_blank">Hwang HyeonJun</a>. If you like what you see feel free to give a 
-        <a href="https://github.com/nehalist/gatsby-theme-nehalem" rel="noopener" target="_blank">star on GitHub!</a>`,
+      description: `안녕하세요 블로그 <a href="https://perpling.com" rel="noopener" target="_blank"><strong>perpling</strong></a>을 운영하는 <strong>황현준</strong>입니다.
+      오늘도 일상, 기획, 비즈니스, 책 등을 통해 얻은 다양한 경험을 써내려 갑니다.`
+      ,
       social: {
-        facebook: ``,
-        twitter: `https://twitter.com/nehalist`,
-        linkedin: `https://www.linkedin.com/in/kevin-hirczy-7a9377106/`,
+        facebook: `https://www.facebook.com/hyeonjun.hwang.3`,
+        twitter: ``,
+        linkedin: `https://www.linkedin.com/in/hyeonjun-hwang-620151193`,
         instagram: ``,
         youtube: ``,
-        github: `https://github.com/nehalist`,
+        github: `https://github.com/hyeonjun-hwang/perpling`,
         twitch: ``
       }
     }
@@ -82,13 +82,13 @@ module.exports = {
       options: {
         contentPath: `content`,
         manifest: {
-          name: `nehalem - A Gatsby theme`,
-          short_name: `nehalem`,
+          name: `Perpling`,
+          short_name: `Perpling`,
           start_url: `/`,
           background_color: `#3a7bd5`,
           theme_color: `#3a7bd5`,
           display: `minimal-ui`,
-          icon: `${__dirname}/content/assets/images/temp_favicon.png`
+          icon: `${__dirname}/content/assets/images/favicon_hj.png`
         },
         loadDefaultPages: true,
         postsPerPage: 5

@@ -1,8 +1,16 @@
-- name: first_tag
-  color: "#d66792"
-  icon: ./assets/images/temp_tag_1.png
+- name: Daily Life
+  color: "#e6275a"
+  icon: ./assets/images/routine_tag.png
   featured: true
-- name: second_tag
-  color: "#5e50de"
-  icon: ./assets/images/temp_tag_2.png
+- name: Planning
+  color: "#3a7bd5"
+  icon: ./assets/images/planning_tag.png
+  featured: true
+- name: Business
+  color: "#a627e6"
+  icon: ./assets/images/business_tag.png
+  featured: true
+- name: Book
+  color: "#e69627"
+  icon: ./assets/images/book_tag.png
   featured: true
