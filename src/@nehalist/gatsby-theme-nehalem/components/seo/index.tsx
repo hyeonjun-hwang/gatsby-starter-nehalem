@@ -27,7 +27,7 @@ const SEO: FunctionComponent<SEOProps> = ({
                                             isArticle = false,
                                             tags = [],
                                             type = `Article`,
-                                            image = `${__dirname}/content/assets/images/pencil.png`,
+                                            image = `content/assets/pencil.png`,
                                           }) => {
   const {site}          = useStaticQuery<SiteMetadata>(graphql`
     query {
