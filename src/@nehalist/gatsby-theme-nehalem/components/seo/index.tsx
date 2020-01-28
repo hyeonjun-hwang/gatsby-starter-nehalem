@@ -27,7 +27,7 @@ const SEO: FunctionComponent<SEOProps> = ({
                                             isArticle = false,
                                             tags = [],
                                             type = `Article`,
-                                            image = `content/assets/pencil.png`,
+                                            image,
                                           }) => {
   const {site}          = useStaticQuery<SiteMetadata>(graphql`
     query {
@@ -54,7 +54,7 @@ const SEO: FunctionComponent<SEOProps> = ({
   const metaDescription = description
     ? description
     : metadata.description.replace("%TOPICS%", metadata.topics.join(", "));
-  const metaImage       = image ? `/${image}` : null;
+  const metaImage       = image ? `${metadata.siteUrl}/${image}` : null;
   const canonical       = url.resolve(metadata.siteUrl, location.pathname);
 
   return (
