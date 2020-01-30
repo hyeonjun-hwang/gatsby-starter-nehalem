@@ -22,19 +22,19 @@ module.exports = {
     ],
     footerMenu: [
       {
-        name: '',
-        path: '/RSS.xml'
+        name: 'RSS',
+        path: 'RSS.xml'
       },
       {
-        name: '',
-        path: '/sitemap.xml'
+        name: 'Sitemap',
+        path: 'sitemap.xml'
       }
     ],
     search: true,
     author: {
       name: `황현준`,
-      description: `안녕하세요 블로그 <a href="https://perpling.com" rel="noopener" target="_blank"><strong>perpling</strong></a>을 운영하는 <strong>황현준</strong>입니다.
-      오늘도 일상, 기획, 비즈니스, 책 등을 통해 얻은 다양한 경험을 써내려 갑니다.`
+      description: `안녕하세요 블로그 <a href="/about" rel="noopener" target="_self"><strong>perpling</strong></a>을 운영하는 <strong>황현준</strong>입니다.
+      일상, 기획, 비즈니스, 책 등을 통해 얻은 다양한 경험을 써내려 갑니다.`
       ,
       social: {
         facebook: `https://www.facebook.com/hyeonjun.hwang.3`,
@@ -61,9 +61,7 @@ module.exports = {
       }
     },
 
-    `gatsby-plugin-sitemap`,
     `gatsby-plugin-advanced-sitemap`,
-    `gatsby-plugin-feed`,
     `gatsby-plugin-react-helmet`,
     
     {
