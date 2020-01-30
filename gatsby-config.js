@@ -22,12 +22,12 @@ module.exports = {
     ],
     footerMenu: [
       {
-        name: 'RSS',
-        path: 'RSS.xml'
+        name: '',
+        path: '/RSS.xml'
       },
       {
-        name: 'Sitemap',
-        path: 'sitemap.xml'
+        name: '',
+        path: '/sitemap.xml'
       }
     ],
     search: true,
@@ -63,7 +63,7 @@ module.exports = {
 
     `gatsby-plugin-advanced-sitemap`,
     `gatsby-plugin-react-helmet`,
-    
+
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
