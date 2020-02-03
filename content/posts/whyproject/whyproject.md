@@ -1,7 +1,7 @@
 ---
 title: "왜 이 프로젝트를 하나요?"
 path: "/whyproject"
-tags: ["planning"]
+tags: ["Planning"]
 featuredImage: "./cover2.jpg"
 excerpt: 왜 '프로젝트'가 진행되는지 이해해야 하는 이유
 created: 2019-10-16
