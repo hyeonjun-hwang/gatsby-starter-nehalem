@@ -3,8 +3,8 @@ import {DefaultTheme} from "./default-theme";
 const Theme: DefaultTheme = {
   layout: {
     backgroundColor: `#fafafa`,
-    primaryColor: `#3a7bd5`,
-    linkColor: `#3a7bd5`,
+    primaryColor: `#4568DC`,
+    linkColor: `#4568DC`,
   },
   breakpoints: {
     xs: `425px`,
@@ -23,7 +23,7 @@ const Theme: DefaultTheme = {
     },
     header: {
       height: `440px`,
-      background: `linear-gradient(-45deg, #3a6073, #3a7bd5) repeat scroll 0 0 transparent`,
+      background: `linear-gradient(-45deg, #4568DC, #B06AB3) repeat scroll 0 0 transparent`,
     },
   },
 };
