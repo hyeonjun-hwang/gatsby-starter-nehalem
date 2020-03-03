@@ -1,5 +1,5 @@
 ---
-title: "블로그의 시작"
+title: "블로그 재정비"
 path: "/start-blog"
 tags: ["Daily Life"]
 featuredImage: "./cover.jpg"
@@ -7,7 +7,8 @@ excerpt: 나의 일상, 기획, 비즈니스, 독서 등을 통해 얻은 지식
 created: 2019-03-27
 updated: 2019-03-27
 ---
-## 블로그의 시작
+
+## 블로그 재정비
 
 ### 과거를 되돌아 보며
 
