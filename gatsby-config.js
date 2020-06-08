@@ -92,7 +92,7 @@ module.exports = {
           icon: `${__dirname}/content/assets/images/favicon_hj.png`
         },
         loadDefaultPages: true,
-        postsPerPage: 5
+        postsPerPage: 20
       }
     }
   ]
